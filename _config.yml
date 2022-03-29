@@ -3,15 +3,15 @@ title:               'Today I Learned'
 tagline:             'Notes to self about software development'
 description:         ''
 url:                 'https://tramdoman.github.io/'
-baseurl:             'til/'
+baseurl:             'app-dev-2/'
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
-  name:              Raghu Betina
-  url:               https://twitter.com/raghubetina
-  email:             raghu@firstdraft.com
+  name:              Tram Doman
+  url:               https://tramdoman.com
+  email:             tramdoman@chicagobooth.edu
 
 # Gems
 plugins:
