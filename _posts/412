@@ -1,0 +1,2 @@
+rails db:drop will drop all tables
+rails db:rollback to undo migration
