@@ -2,4 +2,4 @@ root "controller#action" for home page
 Get/Post/Delete/Patch "/routes" => "controller#action"
 "rails routes" to see all routes, similar to [url]/rails/info/routes
 link_to "Link label", active_record_object if label of table and routes match
-helper method: pass a hash { zebra = "giraffe"} at the end of the helper method will render the zera="giraffe in the html
+helper method: pass an argument  zebra = "giraffe" at the end of the helper method will render the zera="giraffe in the html
