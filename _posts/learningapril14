@@ -3,3 +3,9 @@ Get/Post/Delete/Patch "/routes" => "controller#action"
 "rails routes" to see all routes, similar to [url]/rails/info/routes
 link_to "Link label", active_record_object if label of table and routes match
 helper method: pass an argument  zebra = "giraffe" at the end of the helper method will render the zera="giraffe in the html
+find_by is the same as .where and then .first (returns either 1 record or nil)
+find(3) returns the record that match the primary key number. will throw error instead of nil if no record match
+to get inputs into an array, do input form with name="array_name[]" (commonly used with input type="checkbox"
+can also bundle hashes input name=parent[key]: will create a hash of {parent =>(key1: input_value1, key2: input_value2)}
+if you have a hash variable with keys match the cols of table, can do Class.new[hash] to create new active record in the table
+form_with(mode: @movie)and rail will find the movies_path automatically
