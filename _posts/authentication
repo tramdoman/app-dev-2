@@ -1,1 +1,2 @@
 before_action :method, only: %i[ show edit update destroy ]/ [:show, :update, :destroy, :delete ]
+remove unnecessary routes in the 7 scaffold routes to ensure security
