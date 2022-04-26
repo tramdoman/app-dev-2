@@ -2,4 +2,4 @@ gitpot.io# + https//github url to start a gitpod workspace
 
 def method(&code_to_be_contained_in_block)
 then instead of "yield" we can do 
-code_to_be_contained_in_block.call
+code_to_be_contained_in_block.call (call can also take an argument call() )
