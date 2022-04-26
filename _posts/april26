@@ -3,3 +3,12 @@ gitpot.io# + https//github url to start a gitpod workspace
 def method(&code_to_be_contained_in_block)
 then instead of "yield" we can do 
 code_to_be_contained_in_block.call (call can also take an argument call() )
+
+
+instead of bin/server:
+put require 'sinatra' in the .rb file, gem install sinatra, then run the .rb file
+can use sinatra for simple app or a single api. Rail is better for more complex application
+
+express framework for js
+
+debug JS in the console/response part of the browser
